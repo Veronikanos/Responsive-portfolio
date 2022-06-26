@@ -1,0 +1,52 @@
+:root {
+	--primary-color: #6c63ff;
+	--secondary-color: #f5f2fe;
+	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+section .headers {
+	margin: 60px auto;
+	max-width: 800px;
+}
+
+h1 {
+	font-size: 64px;
+	padding: 0 2%;
+}
+
+h2 {
+	font-size: 48px;
+	margin: 0;
+}
+
+h3 {
+	opacity: 0.7;
+	margin: 0;
+}
+
+.nav_btns a {
+	padding: 20px 15px;
+	text-decoration: none;
+	border: 1px solid var(--primary-color);
+	border-radius: 4px;
+}
+
+.contact_me_button {
+	box-shadow: var(--box-shadow);
+	color: white;
+	background-color: var(--primary-color);
+}
+
+.go_home_btn {
+	display: block;
+	margin-top: 40px;
+}
+
+.contact_mail {
+	color: var(--primary-color);
+	font-size: 28px;
+}
+
+.contact_mail:hover {
+	text-decoration: underline;
+}
