@@ -4,6 +4,15 @@
 	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+img{
+	width: 100;
+	height: auto;
+}
+
+.logo{
+	max-width: 100px;
+}
+
 section .headers {
 	margin: 60px auto;
 	max-width: 800px;
