@@ -1,6 +1,6 @@
 :root {
 	--primary-color: #9d5185;
-	--secondary-color: #f5f2fe;
+	--secondary-color: whitesmoke;
 	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -9,8 +9,10 @@ body{
 }
 
 img{
-	width: 100;
+	width: 100%;
 	height: auto;
+	/* padding: 3%;
+	border: 1px solid black; */
 }
 
 .logo{
@@ -19,15 +21,15 @@ img{
 
 
 .headers{
-	background-image: url(/img/express-54.JPG);
+	background-image: url(/img/express-50.JPG);
 	position: relative;
 	height: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 	padding: 5% 0;
-	margin-top: 8vh;
-	color: whitesmoke;
+	margin-top: 6vh;
+	color: var(--secondary-color);
 }
 
 .headers::before{
@@ -37,7 +39,7 @@ img{
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: rgba(0, 0, 0, 0.5);
+		background: rgba(0, 0, 0, 0.1);
 }
 
 .new{
@@ -87,34 +89,20 @@ h5{
 .nav_btns a {
 	padding: 15px 10px;
 	text-decoration: none;
-	border: 1px solid var(--primary-color);
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
 	border-radius: 4px;
 	box-shadow: var(--box-shadow);
+	text-shadow: 1px 1px 0px black;
 	transition: all 0.3s ease-in-out;
+	border: 1px solid transparent;
 }
 
 .nav_btns a:hover{
-	/* color: black; */
-}
-
-.contact_me_button:hover{
-	background: transparent;
-	color:#fdefef;
-}
-
-.about_me_button:hover{
-	background-color:#9d5185;
-	color:#fdefef;
-}
-
-.contact_me_button {
-	box-shadow: var(--box-shadow);
-	color: white;
-	background-color: var(--primary-color);
-}
-
-.about_me_button{
-	color: white;
+	background-color: var(--secondary-color);
+	border: 1px inset var(--secondary-color);
+	color: black;
+	text-shadow:none;
 }
 
 .contact_mail {
