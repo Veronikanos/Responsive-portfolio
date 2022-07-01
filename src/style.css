@@ -1,18 +1,35 @@
 :root {
-	--primary-color: #9d5185;
+	--primary-color: #FFADAD;
 	--secondary-color: whitesmoke;
 	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body{
-	font-family: 'Patrick Hand', cursive;
+	/* font-family: 'Fanwood Text', serif; */
+	font-family: 'Roboto', sans-serif;
+/* font-family: 'Quattrocento', serif; */
+}
+
+.logo_text{
+	font-weight: 200;
+	letter-spacing: 0.5rem;
+	word-spacing: 0.5rem;
+	text-transform: uppercase;
 }
 
 img{
 	width: 100%;
 	height: auto;
-	/* padding: 3%;
-	border: 1px solid black; */
+}
+
+.img-fluid {
+	padding: 10px;
+	border: 1px solid var(--primary-color);
+}
+
+.description_items{
+	font-size: 2rem;
+	text-align: justify;
 }
 
 .logo{
@@ -21,88 +38,52 @@ img{
 
 
 .headers{
-	background-image: url(/img/express-50.JPG);
-	position: relative;
 	height: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-	padding: 5% 0;
-	margin-top: 6vh;
-	color: var(--secondary-color);
-}
-
-.headers::before{
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: rgba(0, 0, 0, 0.1);
 }
 
 .new{
 		position: relative;
 }
 
-
-/* .headers{
-	background: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
-	position: relative;
-	height: 100%;
-	padding: 5% 0;
-} */
+.navbar{
+	/* background-color: rgb(195, 195, 195); */
+}
 
 
-.brand_name{
-	/* position: relative; */
-	text-shadow: 5px 5px 5px black;
-	/* font-family: 'Satisfy', cursive; */
-	/* font-family: 'Grape Nuts', cursive; */
-	
-
-	/* font-family: 'Roboto', sans-serif; */
+.brand_name img{
+	width: 40%;
 }
 
 h1 {
 	font-size: 64px;
 	padding: 0 2%;
+	font-family: 'Quattrocento', serif;
 }
 
 h2 {
 	font-size: 48px;
 	margin: 0;
+	font-family: 'Quattrocento', serif;
+	font-weight: 600;
 }
 
 h3 {
-	/* color: #4d004d;
-	text-shadow: 2px 2px 2px white; */
-
 	margin: 0;
 }
 
-h5{
-	/* background: linear-gradient(0deg, #ffffff 28%, transparent 100%); */
+.top_btns {
+	margin: 5vh;
 }
 
 .nav_btns a {
-	padding: 15px 10px;
+	padding: 10px 15px;
 	text-decoration: none;
-	background-color: var(--primary-color);
-	color: var(--secondary-color);
-	border-radius: 4px;
+	border-radius: 25px;
 	box-shadow: var(--box-shadow);
-	text-shadow: 1px 1px 0px black;
 	transition: all 0.3s ease-in-out;
-	border: 1px solid transparent;
-}
-
-.nav_btns a:hover{
-	background-color: var(--secondary-color);
-	border: 1px inset var(--secondary-color);
-	color: black;
-	text-shadow:none;
+	border: 1px solid var(--primary-color);
+	font-family: 'Fanwood Text', serif;
+	transition: all 0.5s ease-in-out;
 }
 
 .contact_mail {
@@ -110,6 +91,129 @@ h5{
 	font-size: 28px;
 }
 
+.contact_me_button {
+		background-color: var(--primary-color);
+		color: black;
+}
+
+.contact_me_button:hover {
+	background-color: var(--secondary-color);
+	color: black;
+}
+
 .contact_mail:hover {
 	text-decoration: underline;
+}
+
+.about_me_button{
+	background-color: transparent;
+	color: black;
+}
+
+.about_me_button:hover {
+	color: black;
+	background-color: var(--primary-color);
+}
+
+.description_header {
+	font-size: 2.5rem;
+}
+
+@media (max-width: 1400px) {
+	.description_items {
+		font-size: 1.5rem;
+	}
+	.description_header {
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 1200px) {
+	.description_items {
+		font-size: 1.2rem;
+	}
+	.description_header2{
+		font-size: 36px;
+	}
+	.description_header {
+		font-size: 1.8rem;
+	}
+}
+
+@media (max-width: 991px) {
+	.description_items {
+		font-size: 0.9rem;
+	}
+	.description_header2{
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 942px) {
+	.description_header {
+		font-size: 1.5rem;
+	}
+	.logo_text {
+		font-size: 100%;
+	}
+}
+
+@media (max-width: 790px) {
+	.description_header {
+		font-size: 1.2rem;
+	}
+	.top_btns {
+		margin: 5px;
+	}
+	.nav_btns a {
+		font-size: 80%;
+	}
+}
+
+@media (max-width: 633px) {
+	.description_header {
+		font-size: 1rem;
+	}
+	.brand_name img {
+		width: 60%;
+	}
+}
+
+@media (max-width: 525px) {
+	.description_header {
+		font-size: 1.2rem;
+	}
+	.brand_name img {
+		width: 70%;
+	}
+}
+
+@media (max-width: 414px) {
+	.description_items {
+		font-size: 1rem;
+	}
+	.brand_name img {
+		width: 70%;
+	}
+	.logo_text {
+		font-size: 80%;
+		letter-spacing: 0.4rem;
+		word-spacing: 0.3rem;
+	}
+	.description_header {
+		padding-top: 5% !important;
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 243px) {
+	.nav_btns a {
+		font-size: 60%;
+		padding: 5px 10px;
+	}
+	.logo_text {
+		font-size: 60%;
+		letter-spacing: 0.3rem;
+		word-spacing: 0.3rem;
+	}
 }
