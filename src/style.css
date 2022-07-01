@@ -10,7 +10,6 @@ body{
 }
 
 .logo_text{
-	font-size: 3vh;
 	font-weight: 200;
 	letter-spacing: 0.5rem;
 	word-spacing: 0.5rem;
@@ -28,7 +27,7 @@ img{
 }
 
 .description_items{
-	font-size: 2rem;
+	font-size: 1.8rem;
 	text-align: justify;
 }
 
@@ -60,10 +59,6 @@ h2 {
 
 h3 {
 	margin: 0;
-}
-
-.top_btns {
-	margin: 5vh;
 }
 
 .nav_btns a {
@@ -107,17 +102,24 @@ h3 {
 }
 
 .description_header {
-	font-size: 2.5rem;
+	font-size: 1.5em;
+	padding-top: 5%;
 }
 
+.type_description {
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+
+.nav_footer {
+	background-color: var(--primary-color);
+	width: 100%;
+}
 
 @media (max-width: 1400px) {
 	.description_items {
 		font-size: 1.5rem;
 	}
-	/* .description_header {
-		font-size: 2rem;
-	} */
 }
 
 @media (max-width: 1200px) {
@@ -127,9 +129,6 @@ h3 {
 	.description_header2{
 		font-size: 36px;
 	}
-	/* .description_header {
-		font-size: 1.8rem;
-	} */
 }
 
 @media (max-width: 991px) {
@@ -139,42 +138,33 @@ h3 {
 	.description_header2{
 		font-size: 30px;
 	}
-}
-
-@media (max-width: 942px) {
-	/* .description_header {
-		font-size: 1.5rem;
-	}
-	.logo_text {
-		font-size: 100%;
-	} */
-}
-
-@media (max-width: 790px) {
-	/* .description_header {
+	.description_header {
 		font-size: 1.2rem;
-	} */
-	.top_btns {
-		margin: 5px;
 	}
+	.brand_name img {
+		width: 50%;
+	}
+}
+
+@media (max-width: 768px) {
 	.nav_btns a {
 		font-size: 80%;
+	}
+	.brand_name img {
+		width: 60%;
+	}
+	.type_description {
+		padding-top: 4vh;
 	}
 }
 
 @media (max-width: 633px) {
-	/* .description_header {
-		font-size: 1rem;
-	} */
 	.brand_name img {
 		width: 60%;
 	}
 }
 
 @media (max-width: 525px) {
-	/* .description_header {
-		font-size: 1.2rem;
-	} */
 	.brand_name img {
 		width: 70%;
 	}
@@ -187,25 +177,38 @@ h3 {
 	.brand_name img {
 		width: 70%;
 	}
-	/* .logo_text {
-		font-size: 80%;
-		letter-spacing: 0.4rem;
+	.logo_text {
+		font-size: 2vh;
+		font-weight: 300;
+		letter-spacing: 0.3rem;
 		word-spacing: 0.3rem;
 	}
 	.description_header {
-		padding-top: 5% !important;
-		font-size: 1rem;
-	} */
+		font-size: 0.8rem;
+	}
 }
 
-@media (max-width: 243px) {
-	.nav_btns a {
-		font-size: 60%;
-		padding: 5px 10px;
-	}
-	/* .logo_text {
-		font-size: 60%;
+@media (max-width: 328px) {
+	.logo_text {
+		font-size: 1.5vh;
+		font-weight: 400;
 		letter-spacing: 0.3rem;
 		word-spacing: 0.3rem;
-	} */
+	}
+	.brand_name img {
+		width: 80%;
+	}
+}
+
+@media (max-width: 246px) {
+	.nav_btns a {
+		font-size: 70%;
+		padding: 5px 10px;
+	}
+	.description_header {
+		font-size: 0.8rem;
+	}
+	.nav_btns {
+		/* font-size: ; */
+	}
 }
