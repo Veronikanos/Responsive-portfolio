@@ -169,6 +169,17 @@ h3,
 	.type_description {
 		padding-top: 4vh;
 	}
+	.footer_response {
+		flex-direction: column;
+		text-align: center;
+		margin-top: 0 !important;
+	}
+	.footer_text p {
+		font-size: smaller;
+	}
+	.footer_text h3 {
+		font-size: large;
+	}
 }
 
 @media (max-width: 633px) {
@@ -180,6 +191,9 @@ h3,
 @media (max-width: 525px) {
 	.brand_name img {
 		width: 70%;
+	}
+	.footer_text p {
+		font-size: small;
 	}
 }
 
@@ -220,8 +234,5 @@ h3,
 	}
 	.description_header {
 		font-size: 0.8rem;
-	}
-	.nav_btns {
-		/* font-size: ; */
 	}
 }
