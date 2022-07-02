@@ -4,7 +4,7 @@
 	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body{
+body {
 	font-family: 'Roboto', sans-serif;
 	width: 100%;
 }
@@ -26,9 +26,14 @@ img{
 	border: 1px solid var(--primary-color);
 }
 
-.description_items{
+.description_items {
 	font-size: 1.8rem;
 	text-align: justify;
+	color: #36413d;
+}
+
+ul li a {
+	color: #36413d !important;
 }
 
 .logo{
@@ -47,7 +52,6 @@ img{
 h1 {
 	font-size: 64px;
 	padding: 0 2%;
-	font-family: 'Quattrocento', serif;
 }
 
 h2 {
@@ -57,19 +61,14 @@ h2 {
 	font-weight: 600;
 }
 
-h3 {
-	margin: 0;
-}
-
 .nav_btns a {
-	padding: 10px 15px;
+	padding: 10px 20px;
 	text-decoration: none;
 	border-radius: 25px;
 	box-shadow: var(--box-shadow);
 	transition: all 0.3s ease-in-out;
 	border: 1px solid var(--primary-color);
 	font-family: 'Fanwood Text', serif;
-	transition: all 0.5s ease-in-out;
 }
 
 .contact_mail {
@@ -77,13 +76,13 @@ h3 {
 	font-size: 28px;
 }
 
-.contact_me_button {
+.go_to_gallery {
 		background-color: var(--primary-color);
 		color: black;
 }
 
-.contact_me_button:hover {
-	background-color: var(--secondary-color);
+.go_to_gallery:hover {
+	background-color: #f8dcdc83;
 	color: black;
 }
 
@@ -91,19 +90,28 @@ h3 {
 	text-decoration: underline;
 }
 
-.about_me_button{
-	background-color: transparent;
+.about_me_button,
+.gallery_button,
+.contact_button{
+	background-color: #f8dcdc83;
 	color: black;
 }
 
-.about_me_button:hover {
-	color: black;
-	background-color: var(--primary-color);
+.about_me_button:hover,
+.gallery_button:hover,
+.contact_button:hover {
+	color: white;
+	background-color: #c07878;
+	border-color: #9a5f5f;
 }
 
 .description_header {
 	font-size: 1.5em;
 	padding-top: 5%;
+}
+
+li a:hover {
+	color: #9a5f5f !important;
 }
 
 .type_description {
@@ -114,6 +122,11 @@ h3 {
 .nav_footer {
 	background-color: var(--primary-color);
 	width: 100%;
+}
+
+h3,
+.footer_text p {
+	margin: 0;
 }
 
 @media (max-width: 1400px) {
