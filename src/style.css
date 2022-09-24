@@ -9,14 +9,14 @@ body {
 	width: 100%;
 }
 
-.logo_text{
+.logo_text {
 	font-weight: 200;
 	letter-spacing: 0.5rem;
 	word-spacing: 0.5rem;
 	text-transform: uppercase;
 }
 
-img{
+img {
 	width: 100%;
 	height: auto;
 }
@@ -36,15 +36,15 @@ ul li a {
 	color: #36413d !important;
 }
 
-.logo{
+.logo {
 	max-height: 30px;
 }
 
-.headers{
+.headers {
 	height: auto;
 }
 
-.brand_name img{
+.brand_name img {
 	width: 40%;
 	height: auto;
 }
@@ -77,8 +77,8 @@ h2 {
 }
 
 .go_to_gallery {
-		background-color: var(--primary-color);
-		color: black;
+	background-color: var(--primary-color);
+	color: black;
 }
 
 .go_to_gallery:hover {
@@ -92,7 +92,7 @@ h2 {
 
 .about_me_button,
 .gallery_button,
-.contact_button{
+.contact_button {
 	background-color: #f8dcdc83;
 	color: black;
 }
@@ -139,7 +139,8 @@ h3,
 	.description_items {
 		font-size: 1.2rem;
 	}
-	.description_header2{
+
+	.description_header2 {
 		font-size: 36px;
 	}
 }
@@ -148,12 +149,15 @@ h3,
 	.description_items {
 		font-size: 0.9rem;
 	}
-	.description_header2{
+
+	.description_header2 {
 		font-size: 30px;
 	}
+
 	.description_header {
 		font-size: 1.2rem;
 	}
+
 	.brand_name img {
 		width: 50%;
 	}
@@ -163,19 +167,24 @@ h3,
 	.nav_btns a {
 		font-size: 80%;
 	}
+
 	.brand_name img {
 		width: 60%;
 	}
+
 	.type_description {
 		padding-top: 4vh;
 	}
+
 	.footer_response {
 		flex-direction: column;
 		text-align: center;
 	}
+
 	.footer_text p {
 		font-size: smaller;
 	}
+
 	.footer_text h3 {
 		font-size: large;
 	}
@@ -191,6 +200,7 @@ h3,
 	.brand_name img {
 		width: 70%;
 	}
+
 	.footer_text p {
 		font-size: small;
 	}
@@ -200,15 +210,18 @@ h3,
 	.description_items {
 		font-size: 1rem;
 	}
+
 	.brand_name img {
 		width: 70%;
 	}
+
 	.logo_text {
 		font-size: 2vh;
 		font-weight: 300;
 		letter-spacing: 0.3rem;
 		word-spacing: 0.3rem;
 	}
+
 	.description_header {
 		font-size: 0.8rem;
 	}
@@ -221,6 +234,7 @@ h3,
 		letter-spacing: 0.3rem;
 		word-spacing: 0.3rem;
 	}
+
 	.brand_name img {
 		width: 80%;
 	}
@@ -231,6 +245,7 @@ h3,
 		font-size: 70%;
 		padding: 5px 10px;
 	}
+
 	.description_header {
 		font-size: 0.8rem;
 	}
